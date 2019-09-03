@@ -20,7 +20,7 @@ void setup() {
 void draw() {                         
   ballX             +=speedX    ; 
   ballY             +=speedY    ;
-  if (ballY+speedY>lineHUY+ballSize/2){ // Hvis den kommer uden for boxen den ændre retning
+  if (ballY+speedY>lineHUY+ballSize/2){ // Hvis den kommer uden for boxen, ændre den retning
     speedY = -speedY;
   }
   if (ballX+speedX>lineHDX-ballSize/2){
